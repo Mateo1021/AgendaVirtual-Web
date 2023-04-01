@@ -1,0 +1,109 @@
+.banner{
+width: 100vw;
+height: 30vw;
+}
+.btnAdd{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.eventos{
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(199, 199, 199);
+    box-Shadow: 0px 0px 5px #ed7c23;
+    border-top-style: solid;
+}
+.actividades{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.subTitels{
+    margin-left: 30px;
+}
+.titelPage{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.cardResponse{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(178, 178, 178);
+    margin-top: 30px;
+}
+.containerCard{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.titelCard{
+    display: flex;
+   justify-content: center;
+}
+
+/* .divAction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.actionMed{
+    display: flex;
+justify-content: center;
+}
+.ActionDel{
+    display: flex;
+justify-content: center;
+}
+.contAsistencia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contCreatElement{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (min-width: 768px) {
+
+    .contCreatElement{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+.cardForos{
+    border-style: solid;
+    border-color: '#492013';
+    border-width: 1xp;
+    padding: 5%;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 10px 5px 5px #492013;
+}
+.scrollList{
+    overflow: scroll;
+    height: 30vw;
+    overflow-x: hidden;
+}
+
+.scrollList::-webkit-scrollbar {
+    background: #f5f5f5; 
+  }
+  .scrollList::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: #ed7c23; 
+    width: 10px;
+  }
+  .scrollList::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    height: 10px;
+  }
